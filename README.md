@@ -1,11 +1,11 @@
-﻿# get folder
+﻿# Get Folder
 1.git clone "app"
 
-# exec db
+# Exec db
 1. ```docker-compose up -d```
 1. testar db dbeaver
 
-# env
+# Env
 1. ```python -m venv .venv```
 1. ```.venv\Scripts\activate```
 1. ```pip install -r requirements_dev.txt```
