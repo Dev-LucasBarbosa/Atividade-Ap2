@@ -1,0 +1,8 @@
+services:
+  postgres:
+      image: postgres
+      environment:
+        POSTGRES_USER: tvcultura
+        POSTGRES_PASSWORD: tvcultura
+      ports:
+        - 5432:5432
